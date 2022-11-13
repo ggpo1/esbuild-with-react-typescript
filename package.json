@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node ./build.esbuild.js",
+    "watch": "esbuild src/index.tsx --outfile=public/js/build.js --bundle --watch ",
+    "serve": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "@types/styled-components": "^5.1.26",
+    "esbuild": "^0.15.13",
+    "lite-server": "^2.6.1",
+    "styled-components": "^5.3.6",
+    "typescript": "^4.8.4"
+  }
+}
